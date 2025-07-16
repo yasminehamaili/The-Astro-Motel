@@ -1,0 +1,191 @@
+<<<<<<< HEAD
+@font-face {
+    font-family: fontp;
+    src: url(Louis\ George\ Cafe.ttf);
+}
+@font-face {
+    font-family: fontt;
+    src: url(Abstrec\ font\ tfb.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: fontp;
+    background: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.activity-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+.photo-label {
+    display: block;
+    background: #b24011;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#photo-upload {
+    display: none;
+}
+.title{
+    height: 25px;
+    align-items: center;
+}
+textarea {
+    width: 90%;
+    height: 80px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cancel {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.post {
+    background: #183468c7;
+    color: white;
+}
+=======
+@font-face {
+    font-family: fontp;
+    src: url(Louis\ George\ Cafe.ttf);
+}
+@font-face {
+    font-family: fontt;
+    src: url(Abstrec\ font\ tfb.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: fontp;
+    background: #eaeaea;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.activity-card {
+    display: flex;
+    flex-direction: column;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    text-align: center;
+
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+h2 {
+    margin-bottom: 10px;
+}
+
+.photo-label {
+    display: block;
+    background: #b24011;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 15px;
+    align-items: center;
+}
+
+#photo-upload {
+    display: none;
+}
+.title{
+    height: 25px;
+    align-items: center;
+}
+textarea {
+    width: 90%;
+    height: 80px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 14px;
+    resize: none;
+    outline: none;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.cancel {
+    background: #f0f0f0;
+    color: #333;
+}
+
+.post {
+    background: #183468c7;
+    color: white;
+}
+>>>>>>> a4717c3d139e6410765664512b6fa36a4822a743
